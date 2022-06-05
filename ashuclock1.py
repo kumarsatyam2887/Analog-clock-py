@@ -7,6 +7,7 @@ from tkinter import messagebox
 window = ui.Tk()
 window.geometry("400x400")
 window.title("Satyam clock")
+window.wm_iconbitmap('clock.ico')
 
 def update_clock():
     hours = int(time.strftime("%I"))
